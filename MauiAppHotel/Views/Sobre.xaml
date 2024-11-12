@@ -7,8 +7,7 @@
              BackgroundColor="{StaticResource Gray100}">
     <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="10" Spacing="10">
 
-        <Frame BackgroundColor="{StaticResource MidnightBlue}"
-               BorderColor="Transparent">
+        <Frame BackgroundColor="{StaticResource MidnightBlue}">
             <Label 
                 Text="Sobre o Aplicativo"
                 HorizontalTextAlignment="Center"
@@ -17,8 +16,7 @@
                 />
         </Frame>
 
-        <Frame BackgroundColor="{StaticResource OffBlack}"
-               BorderColor="Transparent">
+        <Frame BackgroundColor="{StaticResource OffBlack}">
             <VerticalStackLayout Spacing="5">
                 <Label Text="Nome do Desenvolvedor:"/>
                 <Label Text="Renato Lopes Cardoso"/>
